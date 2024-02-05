@@ -23,6 +23,7 @@ class Deck {
         this.#cards = shuffle(this.#cards);
         return this;
     }
+
     displayCards() {
         this.#cards.forEach(card => {
             card.display();
